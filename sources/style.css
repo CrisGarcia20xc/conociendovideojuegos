@@ -1,0 +1,35 @@
+body{
+    background-image: url(Joystick imagen.png);
+    max-width: 100vh;
+    padding: 0 25%;
+}
+body>*{
+    background-color: #ffffff;
+    padding: 15px;
+    border:10px solid DarkBlue;
+    border-bottom: none;
+    border-top: none;
+    margin: auto;
+}
+figure,h1,h2{
+    text-align: center;
+}
+h1,h2{
+    border-top: 10px DarkBlue;
+    border-radius: 10px 10px 0 0;
+}
+ul{
+    padding-inline-start:40px;
+}
+audio,video{
+   display: block;
+   background:none;
+   border:none;
+}
+video{
+    width: 100%;
+    padding: 0;
+}
+img{
+    max-width: 40vw;
+}
